@@ -1,0 +1,23 @@
+{
+  "name": "controlaqui",
+  "version": "1.0.0",
+  "description": "Sistema de controle de estabelecimentos.",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.2",
+    "sequelize": "^5.21.5",
+    "socket.io": "^3.1.2",
+    "sucrase": "^3.12.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  }
+}
